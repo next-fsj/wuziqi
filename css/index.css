@@ -1,0 +1,125 @@
+@charset "UTF-8";
+body {
+  background-image: url(../image/36Z58PICjM4_1024.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body, ul, li, i, h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+}
+
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#canvas {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sass {
+  background: url(../image/125462.jpg);
+  height: 510px;
+  width: 510px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.zhezhao {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.tips {
+  position: absolute;
+  width: 356px;
+  height: 293px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: "微软雅黑";
+  top: 0;
+  text-align: center;
+  background: url(../image/tip.png);
+}
+
+.tips .restart, .tips .qipu {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 200px;
+  background: #774821;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tips .close {
+  opacity: 0;
+}
+
+.tips .close::after {
+  content: "✕";
+  display: block;
+  position: absolute;
+  right: -15px;
+  top: 50px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tips .tishi1, .tips .tishi2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Arial";
+  height: 40px;
+}
+
+.tips:hover .close {
+  opacity: 1;
+  translate: opacity 2s ease;
+}
+
+.save {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #774821;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  position: absolute;
+  right: 145px;
+  top: 100px;
+}
